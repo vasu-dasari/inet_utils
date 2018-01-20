@@ -1,7 +1,8 @@
 inet_utils
 =====
 
-A collection utility functions that could be used in conjunction with inet to make software more modular. 
+A collection utility functions that could be used in conjunction with inet to make software more modular.
+ 
 Build
 -----
     $ rebar3 compile
@@ -26,3 +27,7 @@ to_string | to_binstring | to_integer | to_binary | to_list | to_tuple
     <<"01:02:03:04:05:06">>
     2> inet_utils:convert_ip(to_binary, 16#01020304).
     <<1,2,3,4>>
+    
+TODO
+---
+Will keep updating this library with more APIs as needed
